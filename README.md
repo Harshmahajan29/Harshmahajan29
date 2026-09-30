@@ -8,6 +8,7 @@
 
 <br>
 
+[![Profile Views](https://komarev.com/ghpvc/?username=harshmahajan29&label=Profile%20Views&color=334155&style=flat-square)](https://github.com/harshmahajan29)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-harsh--mahajan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-mahajan)
 [![Email](https://img.shields.io/badge/Email-harsh.mahajan%40walchandsangli.ac.in-334155?style=flat-square&logo=gmail&logoColor=white)](mailto:harsh.mahajan@walchandsangli.ac.in)
 [![Twitter](https://img.shields.io/badge/Twitter-harshmahajan29-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/harshmahajan29)
@@ -137,7 +138,7 @@ A parking management system that models vehicle entry, parking allocation and ex
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js" alt="Languages" /> |
+| **Languages** | <img src="https://skillicons.dev/icons?i=java,python,go,c,cpp,js" alt="Languages" /> |
 | **Backend** | <img src="https://skillicons.dev/icons?i=spring,nodejs,express" alt="Backend" /> |
 | **Databases** | <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" alt="Databases" /> |
 | **DevOps and Infrastructure** | <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,git,githubactions" alt="DevOps" /> |
