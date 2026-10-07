@@ -1,8 +1,8 @@
 <div align="center">
 
-# Harsh Mahajan
+# Hello I'm Harsh Mahajan
 
-**Backend Developer** &nbsp;|&nbsp; Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Distributed Systems
+**Backend Developer** &nbsp; | **Open Source Contributer** &nbsp;|&nbsp; Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Docker &nbsp;&nbsp; 
 
 *Building systems that real people rely on, one deploy at a time.*
 
