@@ -75,23 +75,30 @@ I also build projects that expose how systems work internally, instead of relyin
 ### 🎓 WCE Admission Management System
 Production admission platform for **Walchand College of Engineering, Sangli**, running on live data under real institutional deadlines.
 
-`Java` `Spring Boot` `PostgreSQL` `Docker` `AWS` `GitHub Actions`
-
 **1,200+** registrations &nbsp;·&nbsp; **₹12L+** in online transactions
 
-[↓ Details](#-wce-admission-management-system-1)
+- Tracks: MHT-CET, JEE Main, Diploma, OMS, M.Tech Sponsored
+- Eligibility and category-based admission rules
+- Dynamic merit lists with tie-breaking
+- Seat allocation with seat locking to prevent duplicates
+- Real-time admin dashboard and large Excel exports (Apache POI `SXSSFWorkbook`)
+- Payment verification and webhook processing
+
+`Java` `Spring Boot` `PostgreSQL` `Docker` `AWS` `GitHub Actions`
 
 </td>
     <td width="50%" valign="top">
 
 ### ⚡ MiniRedis
-Redis-inspired **in-memory database server** built from scratch in plain Java, with a custom TCP protocol.
+Redis-inspired **in-memory database server** built from scratch in plain Java, working directly with networking, concurrency and storage.
+
+- Custom TCP client-server with concurrent clients
+- String and List types: `SET`, `GET`, `LPUSH`, `RPOP`
+- TTL-based key expiration
+- Thread-safe storage with persistence and recovery
+- RESP-inspired protocol and custom command parsing
 
 `Java` `TCP` `Multithreading` `Maven`
-
-Thread-safe storage · TTL expiry · persistence
-
-[↓ Details](#-miniredis-1)
 
 </td>
   </tr>
@@ -99,11 +106,15 @@ Thread-safe storage · TTL expiry · persistence
     <td width="50%" valign="top">
 
 ### 🔗 QuickShare
-Temporary file sharing through **6-digit access codes**, with a separate frontend and backend deployed to the cloud.
+Temporary file sharing through **6-digit access codes**, focused on file handling, REST APIs and deployment.
 
-`Spring Boot` `PostgreSQL` `Vercel` `Render`
+- File upload through a REST API
+- Unique 6-digit code per upload
+- Retrieval through a `/share` workflow
+- Metadata stored in PostgreSQL
+- Separate frontend and backend, both on the cloud
 
-[↓ Details](#-quickshare-1)
+`Spring Boot` `PostgreSQL` `JavaScript` `Vercel` `Render`
 
 </td>
     <td width="50%" valign="top">
@@ -111,9 +122,12 @@ Temporary file sharing through **6-digit access codes**, with a separate fronten
 ### 🗂️ FileShare
 File storage backend that combines **PostgreSQL metadata** with **external object storage**.
 
-`Spring Boot` `PostgreSQL` `Object Storage`
+- REST APIs for upload and retrieval
+- Large file upload and download handling
+- Clear separation of metadata and file content
+- Cloud-based deployment architecture
 
-[↓ Details](#-fileshare-1)
+`Spring Boot` `PostgreSQL` `Object Storage` `REST API`
 
 </td>
   </tr>
@@ -121,112 +135,18 @@ File storage backend that combines **PostgreSQL metadata** with **external objec
     <td colspan="2" valign="top">
 
 ### 🅿️ Parking Management System
-Vehicle entry, slot allocation and exit workflow using OOP design and transactional database operations.
+Models vehicle entry, slot allocation and exit workflows using OOP design and transactional database operations.
 
-`Java` `PostgreSQL` `React`
+- Vehicle entry and exit management
+- Parking-slot allocation and record persistence
+- PostgreSQL with transaction-based operations
+- React frontend, plus database export and import
 
-[↓ Details](#-parking-management-system-1)
+`Java` `OOP` `PostgreSQL` `React` `Database Transactions`
 
 </td>
   </tr>
 </table>
-
-<br>
-
-<details>
-<summary><h3>🎓 WCE Admission Management System</h3></summary>
-
-<br>
-
-A production admission platform developed for **Walchand College of Engineering, Sangli** to automate the college's Spot/ACAP admission workflow.
-
-**Capabilities**
-
-- Multiple admission tracks: MHT-CET, JEE Main, Diploma, OMS and M.Tech Sponsored
-- Eligibility and category-based admission rules
-- Dynamic merit list generation with tie-breaking
-- Automated seat allocation with seat locking to prevent duplicate allocation
-- Admin dashboard with real-time seat availability
-- Large Excel exports using Apache POI `SXSSFWorkbook`
-- Conditional document requirements based on candidate category
-- Payment verification and webhook processing
-- Deployment with Docker, AWS, PostgreSQL and GitHub Actions
-
-`Java` `Spring Boot` `PostgreSQL` `JavaScript` `Apache POI` `Docker` `AWS` `GitHub Actions`
-
-</details>
-
-<details>
-<summary><h3>⚡ MiniRedis</h3></summary>
-
-<br>
-
-A Redis-inspired **in-memory database server built from scratch in Java**, written in plain Java rather than Spring Boot to work directly with networking, concurrency, request handling and storage.
-
-- Custom TCP client-server architecture with concurrent client handling
-- String and List data structures
-- Commands such as `SET`, `GET`, `LPUSH` and `RPOP`
-- TTL-based key expiration
-- Thread-safe data storage
-- Persistent storage and recovery
-- RESP-inspired request/response protocol
-- Custom command parsing and execution
-
-`Java` `TCP Networking` `Multithreading` `Maven` `Concurrent Data Structures`
-
-</details>
-
-<details>
-<summary><h3>🔗 QuickShare</h3></summary>
-
-<br>
-
-A lightweight file-sharing application built around temporary access codes, focused on file handling, REST APIs, persistence and deployment.
-
-- File upload through a REST API
-- Unique 6-digit sharing code for each upload
-- File retrieval through a `/share` workflow
-- File metadata stored in PostgreSQL
-- Separate frontend and backend, both deployed to the cloud
-
-`Java` `Spring Boot` `PostgreSQL` `REST API` `JavaScript` `Vercel` `Render`
-
-</details>
-
-<details>
-<summary><h3>🗂️ FileShare</h3></summary>
-
-<br>
-
-A backend-oriented file storage and sharing system that keeps application metadata in a relational database and file content in external object storage.
-
-- REST APIs for file upload and retrieval
-- PostgreSQL-backed metadata management
-- Object storage integration
-- Large file upload and download handling
-- Clear separation between metadata and file storage
-- Cloud-based deployment architecture
-
-`Java` `Spring Boot` `PostgreSQL` `Object Storage` `REST API`
-
-</details>
-
-<details>
-<summary><h3>🅿️ Parking Management System</h3></summary>
-
-<br>
-
-A parking management system that models vehicle entry, parking allocation and exit workflows, applying object-oriented design, relational databases and transactional operations.
-
-- Vehicle entry and exit management
-- Parking-slot allocation and record persistence
-- PostgreSQL integration with transaction-based operations
-- React-based frontend
-- Database export and import support
-
-`Java` `OOP` `PostgreSQL` `React` `Database Transactions`
-
-</details>
 
 <br>
 
