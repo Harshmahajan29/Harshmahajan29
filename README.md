@@ -198,7 +198,7 @@ Models vehicle entry, slot allocation and exit workflows using OOP design and tr
 
 | Platform | Progress |
 | :---: | :---: |
-| 🟠 **LeetCode** | 330+ problems solved |
+| 🟠 **LeetCode** | 350+ problems solved |
 | 🟤 **CodeChef** | 2-star |
 | 🔵 **Codeforces** | Active practice |
 
